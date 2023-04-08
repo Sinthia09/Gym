@@ -63,3 +63,88 @@
     font-size: 18px;
     color: white;
 }
+
+.title2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-tow {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    width: 350px;
+    height: 250px;
+    border: 1px solid #808080;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+}
+
+.card1:hover {
+    border: 1px solid rgb(243, 29, 29);
+    margin-top: -20px;
+    transition: .8ms;
+}
+
+.gym-icon {
+    width: 50px;
+
+}
+
+.about-container {
+    display: flex;
+    background-color: black;
+    color: white;
+
+
+}
+
+.about-left {
+    width: 700px;
+
+}
+
+.about-right {
+    width: 700px;
+}
+
+.workout-image {
+    display: flex;
+    margin-top: 50px;
+}
+
+.workout-image img {
+    display: flex;
+    width: 300px;
+    height: 550px;
+    transform: skewY(-15deg);
+}
+
+.btn-text {
+    text-decoration: none;
+    color: white;
+}
+
+.workout-container {
+    width: 650px;
+    height: 200px;
+    background-image: url("./images/shape/Group_33094_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
