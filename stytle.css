@@ -148,3 +148,35 @@
     align-items: center;
 
 }
+
+.services-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.service1 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid gray;
+}
+
+.service-img img {
+    width: 100%;
+}
+
+.batch {
+    position: relative;
+}
+
+.batch-img {
+    width: 50px;
+    top: -30px;
+    left: 320px;
+    position: absolute;
+}
+
+footer {
+    text-align: center;
+}
